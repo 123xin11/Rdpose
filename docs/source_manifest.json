@@ -1,0 +1,832 @@
+[
+  {
+    "path": "human_pose/lib/Makefile",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "0a454b7377833ef2fff7739782cc6cbf2103a15d90f258bd70738b49ff75fd15"
+  },
+  {
+    "path": "human_pose/lib/dataset/coco.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "81333643cff3f2ac87df81087dcad930fbd2ba93e3b7452cface1d2db0c201aa"
+  },
+  {
+    "path": "human_pose/lib/dataset/mpii.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "7b1e2e2842c72e0aa31e12feca8361fcc8790e5468e782428087b64605831eef"
+  },
+  {
+    "path": "human_pose/lib/dataset/JointsDataset.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "be86655ae6a8f7fa5a9195714394cc0177967d780c43dc8a171cf9ed0b347b32"
+  },
+  {
+    "path": "human_pose/lib/dataset/__init__.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "6172710da714b917b81e22c71a9ff2cd92098ad7f8588dfddfc670d0f11d3e81"
+  },
+  {
+    "path": "human_pose/lib/dataset/ochuman.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "8f8a9855b9b51fb9cff583560b30eaac9b7325e222d79384e9cab4600e73ea85"
+  },
+  {
+    "path": "human_pose/lib/nms/nms.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "93d18d6c3e127e690cff90fc30c2c82212be99d289506ac05e7fa969a628e391"
+  },
+  {
+    "path": "human_pose/lib/nms/gpu_nms.hpp",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "67929e6e2ae981cedaeca197c9a277c63806ea461679b089bd0e59ca2573b448"
+  },
+  {
+    "path": "human_pose/lib/nms/setup_linux.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "0d72a3b99186b7216b0b3a16886fe98814a9d4235022cf4b909245beffa607fc"
+  },
+  {
+    "path": "human_pose/lib/nms/cpu_nms.pyx",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "38a2ac654e6090ee79f04b46084f4b9f452e6f8ff687a95e6cbd0d1a328c41a5"
+  },
+  {
+    "path": "human_pose/lib/nms/__init__.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "human_pose/lib/nms/nms_kernel.cu",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "933152cba4926b063f7bd5c36e355f2e0952d2b2541ee03bc5e52d30a55f477f"
+  },
+  {
+    "path": "human_pose/lib/nms/gpu_nms.pyx",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "814cb4a3ca595f6bb9ed95c9298b93a157703b92836b297b86d09ff9f0f20e7b"
+  },
+  {
+    "path": "human_pose/lib/models/pose_resnet.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "c6e6c253565fe7ffdc4dd990782c4e2c2fdfee948c8c236e5a2d71cde93e531e"
+  },
+  {
+    "path": "human_pose/lib/models/pose_hrnet.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "685532766dfcf209bf3cac4071ffe4eddaf5cf5e0193fef6927b8dd9808b956b"
+  },
+  {
+    "path": "human_pose/lib/models/__init__.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "5244a79991973ba9642658b930c1fd16a86584b2366a4bcd96930b1a56b59eda"
+  },
+  {
+    "path": "human_pose/lib/config/models.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "0b603c9e2dc8fd6b7a1e5816cdd952c14c5164fb1474c313d8ead44f02003083"
+  },
+  {
+    "path": "human_pose/lib/config/default.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "d32c78da4b623ad98d1c50d03323819c32f50b196e3048041a9af82844c4d805"
+  },
+  {
+    "path": "human_pose/lib/config/__init__.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "18481ea95a7835895de9444b563b89a1906c24e057fd5d404f08e689f3c82577"
+  },
+  {
+    "path": "human_pose/lib/utils/vis.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "92bace5229bfd8b6d3b2e28101b1a307955f8244243bef66dd724ebe916447ad"
+  },
+  {
+    "path": "human_pose/lib/utils/utils.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "620ebd878efbbd08cb28516ba457d303f8b5434586ac2e1b9005a960e176d737"
+  },
+  {
+    "path": "human_pose/lib/utils/transforms.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "cb23e75f95c26a958f878286dea4cd17757cbdbdacb1f866ef6b8165ffb047a6"
+  },
+  {
+    "path": "human_pose/lib/utils/zipreader.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "acffe0b726f9267f1637526ecdcbfb7a5abd5009e6dc4a69fd0b1b035c73cccb"
+  },
+  {
+    "path": "human_pose/lib/utils/__init__.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "human_pose/lib/core/function.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "f989daf25bfb189734c32dc527579193f23fb489bfa63582545c65be2e83b443"
+  },
+  {
+    "path": "human_pose/lib/core/loss.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "cff4445dfc1c60e5e558a443f9b9f9ab1f0754218ddc5c852eaf347f3c0c1372"
+  },
+  {
+    "path": "human_pose/lib/core/inference.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "68b4dfedf474645ad714804999b9ee313407e2ac764d7f5870a6d243448e96c9"
+  },
+  {
+    "path": "human_pose/lib/core/evaluate.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "da24fb408159a1b39b1c3a539296e6397fd299b53f037487b9ee02fc952823d2"
+  },
+  {
+    "path": "human_pose/tools/test.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "b395237108767dbf7640825bed4e94262bcc0c35cbfa482124745d63416052cd"
+  },
+  {
+    "path": "human_pose/tools/train.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "d61d6e77d1eb6e64f0036043811909b65f5328fc18c66666915ceb588f968d93"
+  },
+  {
+    "path": "human_pose/tools/_init_paths.py",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "e2cc9144cc3a8804230120ce83999d3f3f28b3d675aa295597c6f75beb7e2223"
+  },
+  {
+    "path": "human_pose/experiments/coco/resnet/res50_256x192_d256x3_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "05dfe818f535631e2ce6d446224e245a0c9977ab48218051a8173c927a3da394"
+  },
+  {
+    "path": "human_pose/experiments/coco/resnet/res152_384x288_d256x3_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "f8d69c41c0a3e9ee9c0823adb08d89c8fec50ca65e6fb233dc6a592650850952"
+  },
+  {
+    "path": "human_pose/experiments/coco/resnet/res50_384x288_d256x3_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "f86bb1e55841b95178f8977a89e7511fa65854aad522255422567d6a26387822"
+  },
+  {
+    "path": "human_pose/experiments/coco/resnet/res152_256x192_d256x3_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "75db00d0cc12eb0c83e244ee1b58487b2989c724a832a57e2c0fb84dc1136fa3"
+  },
+  {
+    "path": "human_pose/experiments/coco/resnet/res101_384x288_d256x3_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "b9e6d74207024c2e380080c692888c3874185334b53c48cf998fd5b8e3c61b91"
+  },
+  {
+    "path": "human_pose/experiments/coco/resnet/res101_256x192_d256x3_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "82b9ac9250fb95a72fb1fb106ecb33a2e418cdb3fe45ec9062c8d890d3d0b7a5"
+  },
+  {
+    "path": "human_pose/experiments/coco/hrnet/w48_384x288_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "1e0aa58e4cbe1f62fcf9faadd93f93cbe2e00bd7211803ad3752508c97f718ac"
+  },
+  {
+    "path": "human_pose/experiments/coco/hrnet/w32_256x192_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "1592a0156c086fec6e4cd105758733a9fc7cc031f845e5d2535b02f3b7ef44a8"
+  },
+  {
+    "path": "human_pose/experiments/coco/hrnet/w32_384x288_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "b5e4dfc22deb06d101c55bd0fddc976e038f2ff0f1543e652102c1ba287a51e9"
+  },
+  {
+    "path": "human_pose/experiments/coco/hrnet/w48_256x192_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "00d1433ca5bc25b84990d04f80a26b83d23a441d4ed10732dcdab6ee590fe22e"
+  },
+  {
+    "path": "human_pose/experiments/mpii/resnet/res152_256x256_d256x3_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "9f25116f1b886be89d02103ace12a6a222256b34516f2d152a4dc452867a46c2"
+  },
+  {
+    "path": "human_pose/experiments/mpii/resnet/res101_256x256_d256x3_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "caba4a5f8a8efff3740bfd14ffbd2c954937e9af947dafc5ebed312223fc9358"
+  },
+  {
+    "path": "human_pose/experiments/mpii/resnet/res50_256x256_d256x3_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "dfa29f5f0ce1237a46fd5ce0982e04a67d0d1b21a1cb2d712511bc03fa425f3b"
+  },
+  {
+    "path": "human_pose/experiments/mpii/hrnet/w32_256x256_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "1cc2b362d0cc28bb608ff8fafa7171671204e125dad3fb80ce6c4853512a2675"
+  },
+  {
+    "path": "human_pose/experiments/mpii/hrnet/w48_256x256_adam_lr1e-3.yaml",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "9c4130c6770a17b79372cea8357eadee8ebbd36725bc0c25ffe254e92dfc81fa"
+  },
+  {
+    "path": "human_pose/requirements.original.txt",
+    "source_group": "human_pose_server_snapshot",
+    "original_sha256": "f5be95c15f57372b1ec2d9253fe1ce1dc1936123c4de6cec41097b00c31e5b2d"
+  },
+  {
+    "path": "spine/hrnet/lib/Makefile",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "0a454b7377833ef2fff7739782cc6cbf2103a15d90f258bd70738b49ff75fd15"
+  },
+  {
+    "path": "spine/hrnet/lib/config/default.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "d32c78da4b623ad98d1c50d03323819c32f50b196e3048041a9af82844c4d805"
+  },
+  {
+    "path": "spine/hrnet/lib/config/models.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "0b603c9e2dc8fd6b7a1e5816cdd952c14c5164fb1474c313d8ead44f02003083"
+  },
+  {
+    "path": "spine/hrnet/lib/config/__init__.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "18481ea95a7835895de9444b563b89a1906c24e057fd5d404f08e689f3c82577"
+  },
+  {
+    "path": "spine/hrnet/lib/core/evaluate.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "da24fb408159a1b39b1c3a539296e6397fd299b53f037487b9ee02fc952823d2"
+  },
+  {
+    "path": "spine/hrnet/lib/core/function.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "4433f685edeb06aac0aa23977bed601dfd15b3963302c3fb0d3ecb31f6d14cad"
+  },
+  {
+    "path": "spine/hrnet/lib/core/inference.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "68b4dfedf474645ad714804999b9ee313407e2ac764d7f5870a6d243448e96c9"
+  },
+  {
+    "path": "spine/hrnet/lib/core/loss.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "cff4445dfc1c60e5e558a443f9b9f9ab1f0754218ddc5c852eaf347f3c0c1372"
+  },
+  {
+    "path": "spine/hrnet/lib/dataset/aasce.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "d9aac79e1e3e064e5769a62262b52fecb8d55c2cb63da571a0a86ef1788d9801"
+  },
+  {
+    "path": "spine/hrnet/lib/dataset/coco.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "81333643cff3f2ac87df81087dcad930fbd2ba93e3b7452cface1d2db0c201aa"
+  },
+  {
+    "path": "spine/hrnet/lib/dataset/JointsDataset.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "caad4f680c1b154817ebbf29b48e0b8ef62bfe5767a29e170b9e10aab936590a"
+  },
+  {
+    "path": "spine/hrnet/lib/dataset/mpii.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "7b1e2e2842c72e0aa31e12feca8361fcc8790e5468e782428087b64605831eef"
+  },
+  {
+    "path": "spine/hrnet/lib/dataset/ochuman.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "8f8a9855b9b51fb9cff583560b30eaac9b7325e222d79384e9cab4600e73ea85"
+  },
+  {
+    "path": "spine/hrnet/lib/dataset/__init__.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "7ca3f2dd6762b35d5099f0b24d85487a7a7d1bb1e66d4a36985bf6af1fd05105"
+  },
+  {
+    "path": "spine/hrnet/lib/models/pose_hrnet.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "c0437aa45e98100a6fcf4fde037a0c16361790a4bd27139c83be6deb146fa9f5"
+  },
+  {
+    "path": "spine/hrnet/lib/models/pose_resnet.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "c6e6c253565fe7ffdc4dd990782c4e2c2fdfee948c8c236e5a2d71cde93e531e"
+  },
+  {
+    "path": "spine/hrnet/lib/models/__init__.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "5244a79991973ba9642658b930c1fd16a86584b2366a4bcd96930b1a56b59eda"
+  },
+  {
+    "path": "spine/hrnet/lib/nms/cpu_nms.pyx",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "38a2ac654e6090ee79f04b46084f4b9f452e6f8ff687a95e6cbd0d1a328c41a5"
+  },
+  {
+    "path": "spine/hrnet/lib/nms/gpu_nms.hpp",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "67929e6e2ae981cedaeca197c9a277c63806ea461679b089bd0e59ca2573b448"
+  },
+  {
+    "path": "spine/hrnet/lib/nms/gpu_nms.pyx",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "814cb4a3ca595f6bb9ed95c9298b93a157703b92836b297b86d09ff9f0f20e7b"
+  },
+  {
+    "path": "spine/hrnet/lib/nms/nms.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "93d18d6c3e127e690cff90fc30c2c82212be99d289506ac05e7fa969a628e391"
+  },
+  {
+    "path": "spine/hrnet/lib/nms/nms_kernel.cu",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "933152cba4926b063f7bd5c36e355f2e0952d2b2541ee03bc5e52d30a55f477f"
+  },
+  {
+    "path": "spine/hrnet/lib/nms/setup_linux.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "0d72a3b99186b7216b0b3a16886fe98814a9d4235022cf4b909245beffa607fc"
+  },
+  {
+    "path": "spine/hrnet/lib/nms/__init__.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "spine/hrnet/lib/utils/transforms.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "cb23e75f95c26a958f878286dea4cd17757cbdbdacb1f866ef6b8165ffb047a6"
+  },
+  {
+    "path": "spine/hrnet/lib/utils/utils.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "620ebd878efbbd08cb28516ba457d303f8b5434586ac2e1b9005a960e176d737"
+  },
+  {
+    "path": "spine/hrnet/lib/utils/vis.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "92bace5229bfd8b6d3b2e28101b1a307955f8244243bef66dd724ebe916447ad"
+  },
+  {
+    "path": "spine/hrnet/lib/utils/zipreader.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "acffe0b726f9267f1637526ecdcbfb7a5abd5009e6dc4a69fd0b1b035c73cccb"
+  },
+  {
+    "path": "spine/hrnet/lib/utils/__init__.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "spine/hrnet/experiments/aasce/hrnet/w32_256x512_adam_lr1e-3.yaml",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "acbd235be33805e0133ac1e15e3b8bb516911c1a51c82751e3ed6debc20b5d0f"
+  },
+  {
+    "path": "spine/hrnet/experiments/aasce/hrnet/w32_256x512_fullcrop_adam_lr1e-3.yaml",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "acbd235be33805e0133ac1e15e3b8bb516911c1a51c82751e3ed6debc20b5d0f"
+  },
+  {
+    "path": "spine/hrnet/tools/save_aasce_preds.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "76a76d130832f542fcfe539afbfdbbfb9a85f044f3b0ac0045a02460f24104cb"
+  },
+  {
+    "path": "spine/hrnet/tools/test.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "b395237108767dbf7640825bed4e94262bcc0c35cbfa482124745d63416052cd"
+  },
+  {
+    "path": "spine/hrnet/tools/train.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "d61d6e77d1eb6e64f0036043811909b65f5328fc18c66666915ceb588f968d93"
+  },
+  {
+    "path": "spine/hrnet/tools/visualize_aasce.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "0f4768eed906ff9c5afeea14b7fa020a9324d857a2cf245b01b25634e8ac197f"
+  },
+  {
+    "path": "spine/hrnet/tools/_init_paths.py",
+    "source_group": "HRNet_local_snapshot",
+    "original_sha256": "e2cc9144cc3a8804230120ce83999d3f3f28b3d675aa295597c6f75beb7e2223"
+  },
+  {
+    "path": "spine/rdpose/lib/Makefile",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "0a454b7377833ef2fff7739782cc6cbf2103a15d90f258bd70738b49ff75fd15"
+  },
+  {
+    "path": "spine/rdpose/lib/config/default.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "d32c78da4b623ad98d1c50d03323819c32f50b196e3048041a9af82844c4d805"
+  },
+  {
+    "path": "spine/rdpose/lib/config/models.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "0b603c9e2dc8fd6b7a1e5816cdd952c14c5164fb1474c313d8ead44f02003083"
+  },
+  {
+    "path": "spine/rdpose/lib/config/__init__.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "18481ea95a7835895de9444b563b89a1906c24e057fd5d404f08e689f3c82577"
+  },
+  {
+    "path": "spine/rdpose/lib/core/evaluate.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "da24fb408159a1b39b1c3a539296e6397fd299b53f037487b9ee02fc952823d2"
+  },
+  {
+    "path": "spine/rdpose/lib/core/function.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "f989daf25bfb189734c32dc527579193f23fb489bfa63582545c65be2e83b443"
+  },
+  {
+    "path": "spine/rdpose/lib/core/inference.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "68b4dfedf474645ad714804999b9ee313407e2ac764d7f5870a6d243448e96c9"
+  },
+  {
+    "path": "spine/rdpose/lib/core/loss.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "cff4445dfc1c60e5e558a443f9b9f9ab1f0754218ddc5c852eaf347f3c0c1372"
+  },
+  {
+    "path": "spine/rdpose/lib/dataset/aasce.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "d9aac79e1e3e064e5769a62262b52fecb8d55c2cb63da571a0a86ef1788d9801"
+  },
+  {
+    "path": "spine/rdpose/lib/dataset/coco.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "81333643cff3f2ac87df81087dcad930fbd2ba93e3b7452cface1d2db0c201aa"
+  },
+  {
+    "path": "spine/rdpose/lib/dataset/JointsDataset.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "be86655ae6a8f7fa5a9195714394cc0177967d780c43dc8a171cf9ed0b347b32"
+  },
+  {
+    "path": "spine/rdpose/lib/dataset/mpii.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "7b1e2e2842c72e0aa31e12feca8361fcc8790e5468e782428087b64605831eef"
+  },
+  {
+    "path": "spine/rdpose/lib/dataset/ochuman.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "8f8a9855b9b51fb9cff583560b30eaac9b7325e222d79384e9cab4600e73ea85"
+  },
+  {
+    "path": "spine/rdpose/lib/dataset/__init__.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "7ca3f2dd6762b35d5099f0b24d85487a7a7d1bb1e66d4a36985bf6af1fd05105"
+  },
+  {
+    "path": "spine/rdpose/lib/models/pose_hrnet.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "ee6ebee6aa41e2d15d56320eb2e6f1f51955d28cdc9b92af3e809453cb7f9fe6"
+  },
+  {
+    "path": "spine/rdpose/lib/models/pose_resnet.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "1d18afc46a1906efff50f98bcfd217c6afe7dd0d435f7052dc90abd16d66f39a"
+  },
+  {
+    "path": "spine/rdpose/lib/models/__init__.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "5244a79991973ba9642658b930c1fd16a86584b2366a4bcd96930b1a56b59eda"
+  },
+  {
+    "path": "spine/rdpose/lib/nms/cpu_nms.pyx",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "38a2ac654e6090ee79f04b46084f4b9f452e6f8ff687a95e6cbd0d1a328c41a5"
+  },
+  {
+    "path": "spine/rdpose/lib/nms/gpu_nms.hpp",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "67929e6e2ae981cedaeca197c9a277c63806ea461679b089bd0e59ca2573b448"
+  },
+  {
+    "path": "spine/rdpose/lib/nms/gpu_nms.pyx",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "814cb4a3ca595f6bb9ed95c9298b93a157703b92836b297b86d09ff9f0f20e7b"
+  },
+  {
+    "path": "spine/rdpose/lib/nms/nms.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "93d18d6c3e127e690cff90fc30c2c82212be99d289506ac05e7fa969a628e391"
+  },
+  {
+    "path": "spine/rdpose/lib/nms/nms_kernel.cu",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "933152cba4926b063f7bd5c36e355f2e0952d2b2541ee03bc5e52d30a55f477f"
+  },
+  {
+    "path": "spine/rdpose/lib/nms/setup_linux.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "0d72a3b99186b7216b0b3a16886fe98814a9d4235022cf4b909245beffa607fc"
+  },
+  {
+    "path": "spine/rdpose/lib/nms/__init__.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "spine/rdpose/lib/utils/transforms.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "cb23e75f95c26a958f878286dea4cd17757cbdbdacb1f866ef6b8165ffb047a6"
+  },
+  {
+    "path": "spine/rdpose/lib/utils/utils.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "620ebd878efbbd08cb28516ba457d303f8b5434586ac2e1b9005a960e176d737"
+  },
+  {
+    "path": "spine/rdpose/lib/utils/vis.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "92bace5229bfd8b6d3b2e28101b1a307955f8244243bef66dd724ebe916447ad"
+  },
+  {
+    "path": "spine/rdpose/lib/utils/zipreader.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "acffe0b726f9267f1637526ecdcbfb7a5abd5009e6dc4a69fd0b1b035c73cccb"
+  },
+  {
+    "path": "spine/rdpose/lib/utils/__init__.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "spine/rdpose/experiments/aasce/hrnet/w32_256x512_adam_lr1e-3.yaml",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "acbd235be33805e0133ac1e15e3b8bb516911c1a51c82751e3ed6debc20b5d0f"
+  },
+  {
+    "path": "spine/rdpose/experiments/aasce/hrnet/w32_256x512_fullcrop_adam_lr1e-3.yaml",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "acbd235be33805e0133ac1e15e3b8bb516911c1a51c82751e3ed6debc20b5d0f"
+  },
+  {
+    "path": "spine/rdpose/tools/save_aasce_preds.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "76a76d130832f542fcfe539afbfdbbfb9a85f044f3b0ac0045a02460f24104cb"
+  },
+  {
+    "path": "spine/rdpose/tools/test.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "b395237108767dbf7640825bed4e94262bcc0c35cbfa482124745d63416052cd"
+  },
+  {
+    "path": "spine/rdpose/tools/train.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "d61d6e77d1eb6e64f0036043811909b65f5328fc18c66666915ceb588f968d93"
+  },
+  {
+    "path": "spine/rdpose/tools/visualize_aasce.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "2805274add174615bd779ce124ce6289a7215553ddeff9009f1124ef98f10256"
+  },
+  {
+    "path": "spine/rdpose/tools/_init_paths.py",
+    "source_group": "RDPose_local_snapshot",
+    "original_sha256": "e2cc9144cc3a8804230120ce83999d3f3f28b3d675aa295597c6f75beb7e2223"
+  },
+  {
+    "path": "spine/spine3/lib/Makefile",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "0a454b7377833ef2fff7739782cc6cbf2103a15d90f258bd70738b49ff75fd15"
+  },
+  {
+    "path": "spine/spine3/lib/config/default.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "511a557bc012f3c59cb9ad4522fa1fc6fca04d824a7ac18f47038d178c9a115f"
+  },
+  {
+    "path": "spine/spine3/lib/config/models.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "0b603c9e2dc8fd6b7a1e5816cdd952c14c5164fb1474c313d8ead44f02003083"
+  },
+  {
+    "path": "spine/spine3/lib/config/__init__.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "18481ea95a7835895de9444b563b89a1906c24e057fd5d404f08e689f3c82577"
+  },
+  {
+    "path": "spine/spine3/lib/core/evaluate.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "da24fb408159a1b39b1c3a539296e6397fd299b53f037487b9ee02fc952823d2"
+  },
+  {
+    "path": "spine/spine3/lib/core/function.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "b8bad6e55307ee9bd84e9c90355b6a2ee521f227b0c8ff2eeb337fe4c67b5761"
+  },
+  {
+    "path": "spine/spine3/lib/core/inference.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "0b69c7ab3c1676efef889167ad54bbc7a154527fa510d74106dde37fb64d733f"
+  },
+  {
+    "path": "spine/spine3/lib/core/loss.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "cff4445dfc1c60e5e558a443f9b9f9ab1f0754218ddc5c852eaf347f3c0c1372"
+  },
+  {
+    "path": "spine/spine3/lib/dataset/aasce.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "d9aac79e1e3e064e5769a62262b52fecb8d55c2cb63da571a0a86ef1788d9801"
+  },
+  {
+    "path": "spine/spine3/lib/dataset/coco.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "81333643cff3f2ac87df81087dcad930fbd2ba93e3b7452cface1d2db0c201aa"
+  },
+  {
+    "path": "spine/spine3/lib/dataset/JointsDataset.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "6a756922b65f73a654b26725c1808ce8b773c0708b2bb729d9b95ad39e0b4f14"
+  },
+  {
+    "path": "spine/spine3/lib/dataset/mpii.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "7b1e2e2842c72e0aa31e12feca8361fcc8790e5468e782428087b64605831eef"
+  },
+  {
+    "path": "spine/spine3/lib/dataset/ochuman.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "8f8a9855b9b51fb9cff583560b30eaac9b7325e222d79384e9cab4600e73ea85"
+  },
+  {
+    "path": "spine/spine3/lib/dataset/__init__.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "7ca3f2dd6762b35d5099f0b24d85487a7a7d1bb1e66d4a36985bf6af1fd05105"
+  },
+  {
+    "path": "spine/spine3/lib/models/pose_hrnet.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "f785b7ec117269c2e8ee7a85653d8a84e1c515e8ea3700c0155af000c743dc75"
+  },
+  {
+    "path": "spine/spine3/lib/models/pose_resnet.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "1d18afc46a1906efff50f98bcfd217c6afe7dd0d435f7052dc90abd16d66f39a"
+  },
+  {
+    "path": "spine/spine3/lib/models/__init__.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "5244a79991973ba9642658b930c1fd16a86584b2366a4bcd96930b1a56b59eda"
+  },
+  {
+    "path": "spine/spine3/lib/nms/cpu_nms.pyx",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "38a2ac654e6090ee79f04b46084f4b9f452e6f8ff687a95e6cbd0d1a328c41a5"
+  },
+  {
+    "path": "spine/spine3/lib/nms/gpu_nms.hpp",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "67929e6e2ae981cedaeca197c9a277c63806ea461679b089bd0e59ca2573b448"
+  },
+  {
+    "path": "spine/spine3/lib/nms/gpu_nms.pyx",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "814cb4a3ca595f6bb9ed95c9298b93a157703b92836b297b86d09ff9f0f20e7b"
+  },
+  {
+    "path": "spine/spine3/lib/nms/nms.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "93d18d6c3e127e690cff90fc30c2c82212be99d289506ac05e7fa969a628e391"
+  },
+  {
+    "path": "spine/spine3/lib/nms/nms_kernel.cu",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "933152cba4926b063f7bd5c36e355f2e0952d2b2541ee03bc5e52d30a55f477f"
+  },
+  {
+    "path": "spine/spine3/lib/nms/setup_linux.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "0d72a3b99186b7216b0b3a16886fe98814a9d4235022cf4b909245beffa607fc"
+  },
+  {
+    "path": "spine/spine3/lib/nms/__init__.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "spine/spine3/lib/utils/transforms.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "cb23e75f95c26a958f878286dea4cd17757cbdbdacb1f866ef6b8165ffb047a6"
+  },
+  {
+    "path": "spine/spine3/lib/utils/utils.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "620ebd878efbbd08cb28516ba457d303f8b5434586ac2e1b9005a960e176d737"
+  },
+  {
+    "path": "spine/spine3/lib/utils/vis.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "92bace5229bfd8b6d3b2e28101b1a307955f8244243bef66dd724ebe916447ad"
+  },
+  {
+    "path": "spine/spine3/lib/utils/zipreader.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "acffe0b726f9267f1637526ecdcbfb7a5abd5009e6dc4a69fd0b1b035c73cccb"
+  },
+  {
+    "path": "spine/spine3/lib/utils/__init__.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "spine/spine3/experiments/aasce/hrnet/w32_256x512_adam_lr1e-3.yaml",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "acbd235be33805e0133ac1e15e3b8bb516911c1a51c82751e3ed6debc20b5d0f"
+  },
+  {
+    "path": "spine/spine3/experiments/aasce/hrnet/w32_256x512_spine3_adam_lr1e-3.yaml",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "0f817424c1e52eb4c22d183006f18a17158030006544da8bf7d6ea618ce1b26f"
+  },
+  {
+    "path": "spine/spine3/experiments/aasce/hrnet/w32_256x512_spine3_aux_ew_adam_lr1e-3.yaml",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "0f817424c1e52eb4c22d183006f18a17158030006544da8bf7d6ea618ce1b26f"
+  },
+  {
+    "path": "spine/spine3/experiments/aasce/hrnet/w32_256x512_spine3_aux_mild_ew_adam_lr1e-3.yaml",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "0f817424c1e52eb4c22d183006f18a17158030006544da8bf7d6ea618ce1b26f"
+  },
+  {
+    "path": "spine/spine3/experiments/aasce/hrnet/w32_256x512_spine3_fdm005_fullcrop_adam_lr1e-3.yaml",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "39d831023025ef854bf66b41a1c5c3943e487c5f8317e279180a8ecf035c638b"
+  },
+  {
+    "path": "spine/spine3/experiments/aasce/hrnet/w32_256x512_spine3_fdm010_fullcrop_adam_lr1e-3.yaml",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "7c5e656cf6f0c44d92bd4e29286b52a9e3551baca870a1aa5ea93f6895c1973c"
+  },
+  {
+    "path": "spine/spine3/experiments/aasce/hrnet/w32_256x512_spine3_fdm020_fullcrop_adam_lr1e-3.yaml",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "184959cc7fbb26ffd53de661a0705d13ad6718fe1e5b7eca7b5c2d83237ef564"
+  },
+  {
+    "path": "spine/spine3/experiments/aasce/hrnet/w32_256x512_spine3_fullcrop_adam_lr1e-3.yaml",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "0f817424c1e52eb4c22d183006f18a17158030006544da8bf7d6ea618ce1b26f"
+  },
+  {
+    "path": "spine/spine3/experiments/aasce/hrnet/w32_256x512_spine5_aux_adam_lr1e-3.yaml",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "0f817424c1e52eb4c22d183006f18a17158030006544da8bf7d6ea618ce1b26f"
+  },
+  {
+    "path": "spine/spine3/tools/augment_aasce_dataset.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "cccfcc49b83f3c40e08e453b5f02cb76dd03ca62e9bcbe3365533c65333aa2e7"
+  },
+  {
+    "path": "spine/spine3/tools/compare_spine3_fdm_ablation.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "9db81fe7580bfab4f423d31f004e6aca840a1071d0a29535209e2a9f52a9eb9d"
+  },
+  {
+    "path": "spine/spine3/tools/regenerate_aasce_center_scale.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "303063408ce9134f3f6883da53c159e75ac05c8402ea4ea9a02977d1a2522ce3"
+  },
+  {
+    "path": "spine/spine3/tools/save_aasce_preds.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "c5f4bb176df6fe7e84895dd62f160891bed749504be0dc80a5ca944d9384418d"
+  },
+  {
+    "path": "spine/spine3/tools/test.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "b395237108767dbf7640825bed4e94262bcc0c35cbfa482124745d63416052cd"
+  },
+  {
+    "path": "spine/spine3/tools/train.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "d61d6e77d1eb6e64f0036043811909b65f5328fc18c66666915ceb588f968d93"
+  },
+  {
+    "path": "spine/spine3/tools/visualize_aasce.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "2805274add174615bd779ce124ce6289a7215553ddeff9009f1124ef98f10256"
+  },
+  {
+    "path": "spine/spine3/tools/_init_paths.py",
+    "source_group": "RDPose-spine3-fdm_local_snapshot",
+    "original_sha256": "e2cc9144cc3a8804230120ce83999d3f3f28b3d675aa295597c6f75beb7e2223"
+  },
+  {
+    "path": "spine/tools/calc_aasce_pixel_metrics.py",
+    "source_group": "existing_pixel_metric_utility",
+    "original_sha256": "4abe74c36ae725fe3c1a3ef7cd5dc860880ec83a34d532b470b84d58d185ca89"
+  }
+]

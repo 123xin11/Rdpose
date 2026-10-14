@@ -1,0 +1,18 @@
+# Install a matching PyTorch/torchvision CUDA pair first; see docs/installation.md.
+# These are compatibility constraints, not an experimentally validated lockfile.
+# Legacy loaders use np.float, so NumPy must remain below 1.24.
+numpy>=1.21,<1.24
+opencv-python>=4.5,<4.9
+Cython>=0.29,<3
+scipy>=1.7,<1.11
+pandas>=1.3,<2.1
+matplotlib>=3.4,<3.8
+scikit-image>=0.18,<0.22
+Pillow>=8,<11
+PyYAML>=5.4
+json_tricks
+yacs>=0.1.5
+tensorboardX>=1.6
+pycocotools>=2.0
+easydict>=1.7
+shapely>=1.6

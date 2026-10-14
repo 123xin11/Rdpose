@@ -1,0 +1,62 @@
+# Python and build products
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.o
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.ipynb_checkpoints/
+# Cython-generated files; keep the .pyx and nms_kernel.cu sources
+**/nms/gpu_nms.cu
+**/nms/cpu_nms.c
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data and model artifacts (keep lib/models Python source)
+data/
+datasets/
+checkpoints/
+pretrained/
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.mat
+*.h5
+*.zip
+*.tar
+*.gz
+
+# Experiment outputs and local images
+output/
+outputs/
+log/
+logs/
+runs/
+predictions/
+preds/
+visualizations/
+landmark_error*/
+*.log
+events.out.tfevents.*
+images_grid.jpg
+*.jpg
+*.jpeg
+*.png
+*.dcm
